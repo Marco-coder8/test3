@@ -1,0 +1,30 @@
+#first {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background: linear-gradient(180deg, #000000 0%, #7700ff 100%); */
+    background-color: plum;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.colo {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+
+.desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    height: 3px;
+    background: linear-gradient(200deg, #000000 0%, #7700ffa2 100%);
+
+}

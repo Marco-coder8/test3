@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fadi">
+    <link rel="stylesheet" href="navStyle.css">
+    <title>Help</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Home.html" target="_blank">Home</a>
+        <a href="Flora.html" target="_blank">Flora</a>
+        <a href="Help.html" target="_self">Help</a>
+    </nav>
+    <div class="About">
+        <a href="About.html">
+            <h2>About</h2>
+        </a>
+    </div>
+
+    <footer
+        style="text-align: center; padding: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #4a5d4a; background-color: #f9fbf9; border-top: 1px solid #e0eadd;">
+
+        <div style="font-size: 24px; margin-bottom: 10px;">🌸</div>
+
+        <p style="margin: 0; font-weight: 500;">
+            &copy; <span id="year"></span> Flora Flower Store . All Rights Reserved.
+        </p>
+
+        <p style="font-size: 14px; margin-top: 5px; color: #889988;">
+            Fadi &trade;
+        </p>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>
